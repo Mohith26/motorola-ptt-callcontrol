@@ -1,0 +1,9 @@
+[project]
+name = "talkgroup"
+version = "0.1.0"
+description = "Trunked-radio-style group communication engine: floor control, channel allocation, emergency preemption, store-and-forward messaging"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
