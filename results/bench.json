@@ -1,0 +1,22 @@
+{
+ "best_events_per_sec": 575910,
+ "note": "single thread, pure Python, engine.run() only (event generation excluded)",
+ "runs": [
+  {
+   "events": 353140,
+   "events_per_sec": 575910,
+   "wall_seconds": 0.6132
+  },
+  {
+   "events": 353140,
+   "events_per_sec": 561896,
+   "wall_seconds": 0.6285
+  },
+  {
+   "events": 353140,
+   "events_per_sec": 558864,
+   "wall_seconds": 0.6319
+  }
+ ],
+ "seed": 1
+}

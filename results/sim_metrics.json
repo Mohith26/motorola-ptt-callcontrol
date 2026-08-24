@@ -1,0 +1,484 @@
+{
+ "load_heavy": {
+  "channel_utilization": 0.989,
+  "config": {
+   "channels": 8,
+   "drops": 150,
+   "emergency_frac": 0.02,
+   "grant_delay": 25,
+   "high_frac": 0.08,
+   "hold_max": 1200,
+   "hold_min": 300,
+   "horizon": 600000,
+   "late_joins": 100,
+   "loss_rate": 0.15,
+   "messages": 1200,
+   "offline_max": 40000,
+   "offline_min": 5000,
+   "preempt_grant_delay": 10,
+   "press_rate": 0.02,
+   "seed": 1,
+   "storm_size": 30,
+   "storm_window": 500,
+   "storms": 8,
+   "subscribers": 220,
+   "talkgroups": 24
+  },
+  "counters": {
+   "channel_preemptions": 182,
+   "channel_waits": 3519,
+   "drops": 149,
+   "drops_mid_transmission": 6,
+   "floor_grants": 6668,
+   "late_entry_joins": 36,
+   "pending_preemptions": 4,
+   "ptt_releases": 6384,
+   "ptt_requests": 6517,
+   "regrants_after_preemption": 271,
+   "rejoins": 149,
+   "requests_ignored_duplicate": 5670,
+   "requests_ignored_offline": 293,
+   "speaker_preemptions": 278,
+   "stale_grants": 12,
+   "stale_releases": 284
+  },
+  "digest": "414834a7c2410f6b446f0ae31c7a082cda04346ed0c2ca0664163472a2de67d5",
+  "emergency_preempt_latency": {
+   "count": 296,
+   "max": 381,
+   "mean": 22.865,
+   "p50": 25,
+   "p90": 25,
+   "p99": 152
+  },
+  "events_processed": 113674,
+  "fairness_wait": {
+   "count": 6397,
+   "max": 224214,
+   "mean": 16483.757,
+   "p50": 6009,
+   "p90": 44420,
+   "p99": 138446
+  },
+  "grant_latency": {
+   "emergency": {
+    "count": 296,
+    "max": 381,
+    "mean": 22.865,
+    "p50": 25,
+    "p90": 25,
+    "p99": 152
+   },
+   "high": {
+    "count": 524,
+    "max": 17514,
+    "mean": 2118.962,
+    "p50": 848,
+    "p90": 5629,
+    "p99": 15250
+   },
+   "routine": {
+    "count": 5577,
+    "max": 224214,
+    "mean": 18707.099,
+    "p50": 7500,
+    "p90": 52100,
+    "p99": 143696
+   }
+  },
+  "invariants": {
+   "allocator_checks_run": 1316,
+   "double_speaker": 0,
+   "duplicates_suppressed": 4286,
+   "emergency_bound_violations": 0,
+   "expected_pairs": 24171,
+   "message_duplicate_delivery": 0,
+   "message_loss": 0,
+   "retries": 9228,
+   "starvation": 0
+  },
+  "messaging": {
+   "data_losses": 4941,
+   "duplicates_suppressed": 4286,
+   "mailbox_flushes": 567,
+   "messages_delivered": 24171,
+   "messages_sent": 1200,
+   "messages_stored": 567,
+   "receipt_losses": 4287,
+   "receipts_confirmed": 24170,
+   "retries": 9228,
+   "transmissions": 33398
+  },
+  "talk_time": {
+   "count": 6668,
+   "max": 1200,
+   "mean": 719.607,
+   "p50": 717,
+   "p90": 1104,
+   "p99": 1190
+  },
+  "virtual_ticks": 627346,
+  "wall_seconds": 0.225
+ },
+ "load_light": {
+  "channel_utilization": 0.3952,
+  "config": {
+   "channels": 8,
+   "drops": 150,
+   "emergency_frac": 0.02,
+   "grant_delay": 25,
+   "high_frac": 0.08,
+   "hold_max": 1200,
+   "hold_min": 300,
+   "horizon": 600000,
+   "late_joins": 100,
+   "loss_rate": 0.15,
+   "messages": 1200,
+   "offline_max": 40000,
+   "offline_min": 5000,
+   "preempt_grant_delay": 10,
+   "press_rate": 0.004,
+   "seed": 1,
+   "storm_size": 30,
+   "storm_window": 500,
+   "storms": 8,
+   "subscribers": 220,
+   "talkgroups": 24
+  },
+  "counters": {
+   "channel_waits": 16,
+   "drops": 147,
+   "floor_grants": 2498,
+   "late_entry_joins": 10,
+   "ptt_releases": 2486,
+   "ptt_requests": 2487,
+   "regrants_after_preemption": 12,
+   "rejoins": 147,
+   "requests_ignored_duplicate": 152,
+   "requests_ignored_offline": 49,
+   "speaker_preemptions": 12,
+   "stale_grants": 1,
+   "stale_releases": 12
+  },
+  "digest": "33541d96c45cd0242d703ee9629a7f6deb02ad9eb0b30ca5e05b8d755892e581",
+  "emergency_preempt_latency": {
+   "count": 89,
+   "max": 25,
+   "mean": 22.978,
+   "p50": 25,
+   "p90": 25,
+   "p99": 25
+  },
+  "events_processed": 96094,
+  "fairness_wait": {
+   "count": 2486,
+   "max": 13993,
+   "mean": 338.588,
+   "p50": 25,
+   "p90": 440,
+   "p99": 8901
+  },
+  "grant_latency": {
+   "emergency": {
+    "count": 89,
+    "max": 25,
+    "mean": 22.978,
+    "p50": 25,
+    "p90": 25,
+    "p99": 25
+   },
+   "high": {
+    "count": 200,
+    "max": 1377,
+    "mean": 98.72,
+    "p50": 25,
+    "p90": 314,
+    "p99": 909
+   },
+   "routine": {
+    "count": 2197,
+    "max": 13993,
+    "mean": 373.21,
+    "p50": 25,
+    "p90": 504,
+    "p99": 9259
+   }
+  },
+  "invariants": {
+   "allocator_checks_run": 4176,
+   "double_speaker": 0,
+   "duplicates_suppressed": 4301,
+   "emergency_bound_violations": 0,
+   "expected_pairs": 24335,
+   "message_duplicate_delivery": 0,
+   "message_loss": 0,
+   "retries": 9288,
+   "starvation": 0
+  },
+  "messaging": {
+   "data_losses": 4984,
+   "duplicates_suppressed": 4301,
+   "mailbox_flushes": 525,
+   "messages_delivered": 24335,
+   "messages_sent": 1200,
+   "messages_stored": 525,
+   "receipt_losses": 4304,
+   "receipts_confirmed": 24332,
+   "retries": 9288,
+   "transmissions": 33620
+  },
+  "talk_time": {
+   "count": 2498,
+   "max": 1200,
+   "mean": 751.223,
+   "p50": 750,
+   "p90": 1113,
+   "p99": 1192
+  },
+  "virtual_ticks": 613309,
+  "wall_seconds": 0.172
+ },
+ "load_moderate": {
+  "channel_utilization": 0.9342,
+  "config": {
+   "channels": 8,
+   "drops": 150,
+   "emergency_frac": 0.02,
+   "grant_delay": 25,
+   "high_frac": 0.08,
+   "hold_max": 1200,
+   "hold_min": 300,
+   "horizon": 600000,
+   "late_joins": 100,
+   "loss_rate": 0.15,
+   "messages": 1200,
+   "offline_max": 40000,
+   "offline_min": 5000,
+   "preempt_grant_delay": 10,
+   "press_rate": 0.01,
+   "seed": 1,
+   "storm_size": 30,
+   "storm_window": 500,
+   "storms": 8,
+   "subscribers": 220,
+   "talkgroups": 24
+  },
+  "counters": {
+   "channel_preemptions": 132,
+   "channel_waits": 3053,
+   "drops": 146,
+   "drops_mid_transmission": 5,
+   "floor_grants": 6069,
+   "late_entry_joins": 40,
+   "pending_preemptions": 4,
+   "ptt_releases": 5875,
+   "ptt_requests": 5884,
+   "regrants_after_preemption": 189,
+   "rejoins": 146,
+   "requests_ignored_duplicate": 335,
+   "requests_ignored_offline": 141,
+   "speaker_preemptions": 189,
+   "stale_grants": 9,
+   "stale_releases": 194
+  },
+  "digest": "37d71cc1c0e13a6f355de0707749cf3248f84249882c2560524bb32b7ed2082a",
+  "emergency_preempt_latency": {
+   "count": 228,
+   "max": 536,
+   "mean": 23.193,
+   "p50": 25,
+   "p90": 25,
+   "p99": 25
+  },
+  "events_processed": 106218,
+  "fairness_wait": {
+   "count": 5880,
+   "max": 13968,
+   "mean": 790.163,
+   "p50": 508,
+   "p90": 1764,
+   "p99": 5549
+  },
+  "grant_latency": {
+   "emergency": {
+    "count": 228,
+    "max": 536,
+    "mean": 23.193,
+    "p50": 25,
+    "p90": 25,
+    "p99": 25
+   },
+   "high": {
+    "count": 461,
+    "max": 1474,
+    "mean": 258.822,
+    "p50": 170,
+    "p90": 611,
+    "p99": 1097
+   },
+   "routine": {
+    "count": 5191,
+    "max": 13968,
+    "mean": 871.037,
+    "p50": 597,
+    "p90": 1876,
+    "p99": 6151
+   }
+  },
+  "invariants": {
+   "allocator_checks_run": 7062,
+   "double_speaker": 0,
+   "duplicates_suppressed": 4207,
+   "emergency_bound_violations": 0,
+   "expected_pairs": 24158,
+   "message_duplicate_delivery": 0,
+   "message_loss": 0,
+   "retries": 9209,
+   "starvation": 0
+  },
+  "messaging": {
+   "data_losses": 5002,
+   "duplicates_suppressed": 4207,
+   "mailbox_flushes": 526,
+   "messages_delivered": 24158,
+   "messages_sent": 1200,
+   "messages_stored": 526,
+   "receipt_losses": 4207,
+   "receipts_confirmed": 24158,
+   "retries": 9209,
+   "transmissions": 33367
+  },
+  "talk_time": {
+   "count": 6069,
+   "max": 1200,
+   "mean": 728.637,
+   "p50": 727,
+   "p90": 1105,
+   "p99": 1189
+  },
+  "virtual_ticks": 611904,
+  "wall_seconds": 0.203
+ },
+ "main": {
+  "channel_utilization": 0.9887,
+  "config": {
+   "channels": 8,
+   "drops": 400,
+   "emergency_frac": 0.02,
+   "grant_delay": 25,
+   "high_frac": 0.08,
+   "hold_max": 1200,
+   "hold_min": 300,
+   "horizon": 1200000,
+   "late_joins": 300,
+   "loss_rate": 0.15,
+   "messages": 3500,
+   "offline_max": 40000,
+   "offline_min": 5000,
+   "preempt_grant_delay": 10,
+   "press_rate": 0.02,
+   "seed": 1,
+   "storm_size": 30,
+   "storm_window": 500,
+   "storms": 20,
+   "subscribers": 220,
+   "talkgroups": 24
+  },
+  "counters": {
+   "channel_preemptions": 285,
+   "channel_waits": 7128,
+   "drops": 390,
+   "drops_mid_transmission": 17,
+   "floor_grants": 13059,
+   "late_entry_joins": 86,
+   "pending_preemptions": 10,
+   "ptt_releases": 12550,
+   "ptt_requests": 12928,
+   "regrants_after_preemption": 479,
+   "rejoins": 390,
+   "requests_ignored_duplicate": 11373,
+   "requests_ignored_offline": 779,
+   "speaker_preemptions": 492,
+   "stale_grants": 21,
+   "stale_releases": 509
+  },
+  "digest": "e909b253fde106f8cf45ede9cca0c669418daf619a051042c8a5c60267244fa7",
+  "emergency_preempt_latency": {
+   "count": 517,
+   "max": 694,
+   "mean": 22.716,
+   "p50": 25,
+   "p90": 25,
+   "p99": 25
+  },
+  "events_processed": 353140,
+  "fairness_wait": {
+   "count": 12580,
+   "max": 235850,
+   "mean": 15901.656,
+   "p50": 5518,
+   "p90": 42717,
+   "p99": 136176
+  },
+  "grant_latency": {
+   "emergency": {
+    "count": 517,
+    "max": 694,
+    "mean": 22.716,
+    "p50": 25,
+    "p90": 25,
+    "p99": 25
+   },
+   "high": {
+    "count": 1051,
+    "max": 11053,
+    "mean": 1575.4,
+    "p50": 808,
+    "p90": 4148,
+    "p99": 8175
+   },
+   "routine": {
+    "count": 11012,
+    "max": 235850,
+    "mean": 18014.47,
+    "p50": 7020,
+    "p90": 49051,
+    "p99": 141032
+   }
+  },
+  "invariants": {
+   "allocator_checks_run": 2472,
+   "double_speaker": 0,
+   "duplicates_suppressed": 14665,
+   "emergency_bound_violations": 0,
+   "expected_pairs": 83558,
+   "message_duplicate_delivery": 0,
+   "message_loss": 0,
+   "retries": 31773,
+   "starvation": 0
+  },
+  "messaging": {
+   "data_losses": 17102,
+   "duplicates_suppressed": 14665,
+   "mailbox_flushes": 2814,
+   "messages_delivered": 83558,
+   "messages_sent": 3500,
+   "messages_stored": 2814,
+   "receipt_losses": 14671,
+   "receipts_confirmed": 83552,
+   "retries": 31773,
+   "transmissions": 115325
+  },
+  "talk_time": {
+   "count": 13059,
+   "max": 1200,
+   "mean": 721.869,
+   "p50": 717,
+   "p90": 1103,
+   "p99": 1189
+  },
+  "virtual_ticks": 1232734,
+  "wall_seconds": 0.664
+ },
+ "seed": 1
+}
